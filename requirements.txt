@@ -1,0 +1,11 @@
+chembl-webresource-client 
+pubchempy 
+requests 
+rdkit-pypi 
+pandas 
+numpy 
+scikit-learn 
+matplotlib 
+seaborn 
+torch 
+torch-geometric
