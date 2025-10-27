@@ -1,0 +1,48 @@
+# .github/workflows/ci_pipeline.yml
+
+name: Continuous Integration Pipeline
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build_and_test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ["3.8", "3.10"] # Test across different Python versions
+
+    steps:
+    - uses: actions/checkout@v4
+    
+    # 1. Setup Python Environment
+    - name: Set up Python ${{ matrix.python-version }}
+      uses: actions/setup-python@v4
+      with:
+        python-version: ${{ matrix.python-version }}
+    
+    # 2. Install Dependencies
+    - name: Install dependencies
+      run: |
+        # Install RDKit dependencies for your project
+        pip install rdkit-pypi
+        # Install core and development dependencies
+        pip install -r requirements.txt
+        pip install -r requirements-dev.txt
+
+    # 3. Run Linters (Style and Static Analysis)
+    - name: Run Black and Flake8
+      run: |
+        # Check formatting (Black)
+        black --check .
+        # Check style and errors (Flake8)
+        flake8 . --max-line-length=120
+
+    # 4. Run Tests and Coverage
+    - name: Run Pytest and Coverage
+      run: |
+        # Execute tests and generate coverage report
+        pytest --cov=mcp_pipeline
