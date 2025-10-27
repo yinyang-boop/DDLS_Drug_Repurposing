@@ -12,6 +12,6 @@ isort            # Sorts Python imports alphabetically and separates sections
 flake8           # Standard linter for style guide enforcement
 mypy             # Static type checker (highly recommended for robustness)
 
-# Documentation (if you decide to generate docs later)
+# Documentation
 # sphinx
 # sphinx-rtd-theme
