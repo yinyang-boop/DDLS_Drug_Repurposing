@@ -1,0 +1,9 @@
+query_id,cid,iupac_name,canonical_smiles,isomeric_smiles,molecular_weight,molecular_formula,xlogp,hydrogen_bond_donor_count,hydrogen_bond_acceptor_count,rotatable_bond_count,complexity
+Gefitinib,123631,N-(3-chloro-4-fluorophenyl)-7-methoxy-6-(3-morpholin-4-ylpropoxy)quinazolin-4-amine,,,446.9,C22H24ClFN4O3,4.1,,,8,545
+Erlotinib,176870,"N-(3-ethynylphenyl)-6,7-bis(2-methoxyethoxy)quinazolin-4-amine",,,393.4,C22H23N3O4,3.3,,,11,525
+Afatinib,10184653,(E)-N-[4-(3-chloro-4-fluoroanilino)-7-[(3S)-oxolan-3-yl]oxyquinazolin-6-yl]-4-(dimethylamino)but-2-enamide,,,485.9,C24H25ClFN5O3,3.6,,,8,702
+Osimertinib,71496458,N-[2-[2-(dimethylamino)ethyl-methylamino]-4-methoxy-5-[[4-(1-methylindol-3-yl)pyrimidin-2-yl]amino]phenyl]prop-2-enamide,,,499.6,C28H33N7O2,3.7,,,10,752
+Lapatinib,208908,N-[3-chloro-4-[(3-fluorophenyl)methoxy]phenyl]-6-[5-[(2-methylsulfonylethylamino)methyl]furan-2-yl]quinazolin-4-amine,,,581.1,C29H26ClFN4O4S,5.1,,,11,898
+Vandetanib,3081361,N-(4-bromo-2-fluorophenyl)-6-methoxy-7-[(1-methylpiperidin-4-yl)methoxy]quinazolin-4-amine,,,475.4,C22H24BrFN4O2,4.9,,,6,539
+Icotinib,22024915,"N-(3-ethynylphenyl)-2,5,8,11-tetraoxa-15,17-diazatricyclo[10.8.0.014,19]icosa-1(12),13,15,17,19-pentaen-18-amine",,,391.4,C22H21N3O4,3.1,,,3,553
+Dacomitinib,11511120,(E)-N-[4-(3-chloro-4-fluoroanilino)-7-methoxyquinazolin-6-yl]-4-piperidin-1-ylbut-2-enamide,,,469.9,C24H25ClFN5O2,4.4,,,7,665
