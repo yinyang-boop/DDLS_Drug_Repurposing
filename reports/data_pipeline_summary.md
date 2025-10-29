@@ -1,28 +1,39 @@
+Here’s the English translation of your text:
 
-# 数据流水线执行报告
-生成时间: 2025-10-26 18:51:56
+---
 
-## 数据源汇总
-- 成功整合的数据源: ChEMBL, PubChem
-- 最终数据集大小: 10297 行, 36 列
+# Data Pipeline Execution Report
 
-## 数据质量指标
-- 有效化合物数量: 10297
-- 活性数据记录: 10297
-- 分子描述符完整性: 100.00%
+Generated on: 2025-10-26 18:51:56
 
-## 分子性质统计
-         mol_weight          logp           hbd           hba          tpsa
-count  10297.000000  10297.000000  10297.000000  10297.000000  10297.000000
-mean     480.606721      4.561989      2.202875      7.047198     95.978948
-std      121.720770      1.449277      1.187346      2.273566     30.607719
-min      110.112000     -5.994500      0.000000      0.000000      0.000000
-25%      400.334000      3.646920      1.000000      6.000000     76.720000
-50%      480.532000      4.521000      2.000000      7.000000     96.260000
-75%      554.655000      5.466270      3.000000      9.000000    111.630000
-max     1425.805000     13.028900     17.000000     21.000000    530.870000
+## Data Source Summary
 
-## 下一步建议
-1. 检查数据分布是否适合机器学习建模
-2. 验证关键分子描述符的相关性
-3. 考虑进一步的特征工程和选择
+* Successfully integrated data sources: **ChEMBL, PubChem**
+* Final dataset size: **10,297 rows, 36 columns**
+
+## Data Quality Metrics
+
+* Valid compound count: **10,297**
+* Activity data records: **10,297**
+* Molecular descriptor completeness: **100.00%**
+
+## Molecular Property Statistics
+
+| Statistic | mol_weight    | logp          | hbd           | hba           | tpsa          |
+| --------- | ------------- | ------------- | ------------- | ------------- | ------------- |
+| count     | 10,297.000000 | 10,297.000000 | 10,297.000000 | 10,297.000000 | 10,297.000000 |
+| mean      | 480.606721    | 4.561989      | 2.202875      | 7.047198      | 95.978948     |
+| std       | 121.720770    | 1.449277      | 1.187346      | 2.273566      | 30.607719     |
+| min       | 110.112000    | -5.994500     | 0.000000      | 0.000000      | 0.000000      |
+| 25%       | 400.334000    | 3.646920      | 1.000000      | 6.000000      | 76.720000     |
+| 50%       | 480.532000    | 4.521000      | 2.000000      | 7.000000      | 96.260000     |
+| 75%       | 554.655000    | 5.466270      | 3.000000      | 9.000000      | 111.630000    |
+| max       | 1425.805000   | 13.028900     | 17.000000     | 21.000000     | 530.870000    |
+
+## Recommended Next Steps
+
+1. Check whether the data distribution is suitable for machine learning modeling.
+2. Validate correlations among key molecular descriptors.
+3. Consider further feature engineering and feature selection.
+
+---
