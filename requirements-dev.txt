@@ -1,17 +1,24 @@
 # Development Dependencies (requirements-dev.txt)
 
-# Testing framework
+# Testing
 pytest
-pytest-cov       # For measuring code coverage
+pytest-cov
+coverage
 
-# Code Formatting (to enforce consistency)
-black            # Uncompromising code formatter
-isort            # Sorts Python imports alphabetically and separates sections
+# Code Formatting
+black
+isort
+pre-commit
 
-# Static Analysis / Linting (to catch errors before runtime)
-flake8           # Standard linter for style guide enforcement
-mypy             # Static type checker (highly recommended for robustness)
+# Static Analysis / Linting
+flake8
+mypy
+pylint
 
-# Documentation
+# Documentation (optional, uncomment if needed)
 # sphinx
 # sphinx-rtd-theme
+# sphinx-autodoc-typehints
+
+# Multi-environment testing
+tox
